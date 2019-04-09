@@ -22,6 +22,8 @@ class FirstViewController: UITableViewController {
 
         let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addNewCell(_:)))
         navigationItem.rightBarButtonItem = addButton
+
+        tableView.cellLayoutMarginsFollowReadableWidth = true
     }
 
     @objc func addNewCell(_ sender: Any) {

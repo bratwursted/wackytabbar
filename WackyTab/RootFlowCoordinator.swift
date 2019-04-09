@@ -15,12 +15,12 @@ class RootFlowCoordinator: NSObject {
 
     func presentRootInterface(on window: UIWindow) {
         rootTabBarController = makeRootTabBarController()
-        rootTabBarController.map(configureViewControllers(for:))
+        rootTabBarController.map(configureTabBarController(_:))
         window.rootViewController = rootTabBarController
         window.makeKeyAndVisible()
     }
 
-    private func configureViewControllers(for tabBarController: UITabBarController) {
+    private func configureTabBarController(_ tabBarController: UITabBarController) {
 
         let topStories = UINavigationController(rootViewController: FirstViewController())
         topStories.tabBarItem = UITabBarItem(title: "Top Stories", image: UIImage(named: "superT"), selectedImage: nil)
@@ -29,6 +29,8 @@ class RootFlowCoordinator: NSObject {
         forYou.tabBarItem = UITabBarItem(title: "For You", image: UIImage(named: "star"), selectedImage: nil)
 
         tabBarController.setViewControllers([topStories, forYou], animated: false)
+
+        tabBarController.tabBar.isTranslucent = true
     }
 
     private func makeRootTabBarController() -> WackTabBarController? {
