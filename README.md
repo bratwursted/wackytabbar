@@ -23,3 +23,5 @@ This is a very basic version of our current flow coordinator setup. This class d
 ## Testing
 
 I've tested this on different simulators including the iPhone XR and iPhone 8 to get a sense of how well this works for notch and non-notch phones. Also on the iPad under different multitasking cases and rotation. It seemes to work pretty well and hasn't broken anything that I can tell yet. 
+
+The container view of the UITabViewController seems to have the correct size to show all the content without clipping, which was a concern. I tested this on phones and the iPad under differernt multitasking cases. 
