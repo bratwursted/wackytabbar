@@ -40,6 +40,7 @@
 /* Begin PBXFileReference section */
 		8D853C86225CDBAC005AE0A7 /* WackyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WackyTabBar.swift; sourceTree = "<group>"; };
 		8D853C8C225CF838005AE0A7 /* RootFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFlowCoordinator.swift; sourceTree = "<group>"; };
+		8D853C8E225D17B5005AE0A7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8D9F5FC2224A800A00C18E42 /* WackyTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WackyTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9F5FC5224A800A00C18E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D9F5FC7224A800A00C18E42 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +111,7 @@
 				8D9F5FC7224A800A00C18E42 /* FirstViewController.swift */,
 				8D9F5FC9224A800A00C18E42 /* SecondViewController.swift */,
 				8D9F5FF5224A802E00C18E42 /* WackTabBarController.swift */,
+				8D853C8E225D17B5005AE0A7 /* README.md */,
 				8D853C86225CDBAC005AE0A7 /* WackyTabBar.swift */,
 				8D9F5FCB224A800A00C18E42 /* Main.storyboard */,
 				8D9F5FCE224A800B00C18E42 /* Assets.xcassets */,
